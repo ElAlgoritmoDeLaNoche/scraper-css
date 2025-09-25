@@ -1,0 +1,24 @@
+.container_container___eiAJ {
+  padding: 64px 0;
+}
+@container responsive-layout (min-width: 1000px) {
+  .container_container___eiAJ {
+    padding: 96px 0;
+  }
+}
+@keyframes container_containerFadeIn__liVGe {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container_container___eiAJ .container_fade-in-hidden__B2mli {
+  opacity: 0;
+}
+.container_container___eiAJ .container_fade-in-visible__6gRDm {
+  animation: container_containerFadeIn__liVGe 1s ease-out forwards;
+}

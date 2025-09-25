@@ -1,0 +1,14 @@
+{
+  "name": "scraper-css",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scrape-css.mjs",
+    "scrape:url": "node scrape-css.mjs https://www.soundtrack.io/es/",
+    "scrape:custom": "node scrape-css.mjs"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "playwright": "^1.48.0"
+  }
+}
